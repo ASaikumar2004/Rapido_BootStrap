@@ -1,0 +1,278 @@
+.main-container{
+}
+
+
+.navbar {
+    background-color: white !important;
+}
+
+.navbar-brand img {
+    width: 100px;
+    height: 65px;
+}
+
+.navbar-nav {
+    width: 100%;
+    justify-content: end;
+    font-size: 17px;
+    gap: 3%;
+    font-weight: 500;
+}
+
+.nav-item1 {
+    border-bottom: 3px solid black;
+    border-radius: 3px;
+}
+
+.nav-item {
+    transition: 1s;
+}
+
+.nav-item:hover {
+    border-bottom: 3px solid black;
+    border-radius: 3px;
+}
+
+
+.hero-section {
+    background-color: aliceblue;
+}
+
+.location-box {
+    width: 100%;
+    height: 80px;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 25px;
+}
+
+.location-box input {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 23px;
+    color: #555;
+    margin-left: 20px;
+}
+
+.location-box input::placeholder {
+    color: #666;
+}
+
+.location-icon {
+    font-size: 25px;
+    color: #202733;
+}
+
+.drop-icon {
+    width: 24px;
+    height: 22px;
+    border: 7px solid #202733;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+.book-ride-btn {
+    height: 90px;
+    background-color: #ffc629;
+    color: black;
+    border: none;
+    border-radius: 12px;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.book-ride-btn:hover {
+    background-color: #f5b900;
+    color: black;
+}
+
+.hero-image {
+    width: 100%;
+    max-width: 700px;
+}
+
+
+
+
+
+/* service heading */
+
+
+.heading1 h1 {
+    font-size: 60px !important;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-weight: bold;
+    margin-top: 4px;
+}
+
+img {
+    width: 100%;
+}
+
+
+
+.whatweoffer {
+    background-color: #F8F8F8;
+}
+
+
+.card {
+    border: none;
+    margin-bottom: 4%;
+    background-color: transparent;
+}
+
+.card img {
+    width: 100%;
+}
+
+
+/*   earinging pages css */
+
+
+.Earning {
+    background-color: #245488;
+}
+
+.earning-image {
+    width: 100%;
+    max-width: 650px;
+    border-radius: 20px;
+}
+
+.earning-title {
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+
+.earning-text {
+    color: white;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 55px;
+}
+
+.earning-btn {
+    background-color: #ffc629;
+    color: black;
+    border: none;
+    border-radius: 50px;
+    padding: 18px 28px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.earning-btn:hover {
+    background-color: #ffc629;
+    color: black;
+}
+
+
+
+.download-heading h1 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+    padding-bottom: 4%;
+}
+
+.download-card img {
+    width: 100%;
+    height: 200px;
+}
+
+
+.download {
+    background-color: #F5F5F5;
+    padding: 5% 0px;
+
+}
+
+
+
+
+
+
+/* footer section================== */
+
+
+.footer {
+    background-color: #000;
+    color: white;
+    padding: 70px 0 30px;
+}
+
+.footer h5 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 45px;
+}
+
+.footer a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+.footer a:hover {
+    color: #ffc629;
+}
+
+.app-img {
+    display: block;
+    width: 160px;
+    margin-bottom: 35px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.social-icons a {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.footer:after {
+    content: "";
+    display: block;
+    height: 1px;
+    background-color: #333;
+    margin: 30px auto 0;
+    width: 90%;
+}
+
+@media(max-width:991px) {
+    .footer {
+        text-align: center;
+    }
+
+    .footer h5 {
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
+
+    .app-img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+}

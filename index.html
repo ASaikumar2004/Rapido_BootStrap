@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rapido website</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="container">
+
+            <!-- Nabvar component -->
+
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+                <div class="container-fluid">
+
+                    <a class="navbar-brand" href="#">
+                        <img src="./assets/logo.png" alt="">
+                    </a>
+
+                    <!-- Offcanvas Button -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-label="Toggle navigation">
+
+                        <span class="navbar-toggler-icon"></span>
+
+                    </button>
+
+                    <!-- Offcanvas Menu -->
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarSupportedContent"
+                        aria-labelledby="navbarOffcanvasLabel">
+
+                        <div class="offcanvas-header">
+
+                            <h5 class="offcanvas-title" id="navbarOffcanvasLabel">
+                                Menu
+                            </h5>
+
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
+                            </button>
+
+                        </div>
+
+                        <div class="offcanvas-body">
+
+                            <ul class="navbar-nav">
+
+                                <li class="nav-item1">
+                                    <a class="nav-link active" aria-current="page" href="#">
+                                        Home
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">
+                                        About Us
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">
+                                        Safety
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">
+                                        Blog
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#"> Press </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">
+                                        Contact Us
+                                    </a>
+                                </li>
+                                <button class="btn bg-dark text-white rounded-start-5 rounded-top-5" type="submit">
+                                    Download App
+                                </button>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+
+        <!-- --------------------------------------main sections pages--------------------------------- -->
+
+        <div class="hero-section">
+            <div class="container">
+                <!-- Hero Section -->
+                <div class="row align-items-center py-5">
+
+                    <div class="col-lg-6">
+
+                        <h1 class="display-4 fw-bold text-dark lh-1 mb-3">
+                            India’s #1<br>
+                            Ride-hailing App
+                        </h1>
+
+                        <p class="fs-4 mb-5" style="color: #214b7a;">
+                            Quick, Affordable rides at your doorstep
+                        </p>
+
+                        <div class="location-box mb-3">
+                            <span class="location-icon">●</span>
+                            <input type="text" placeholder="Enter Pickup Location">
+                        </div>
+                        <div class="location-box mb-5">
+                            <span class="drop-icon">●</span>
+                            <input type="text" placeholder="Enter Drop Location">
+                        </div>
+                        <button class="btn book-ride-btn w-100">
+                            Book Ride
+                        </button>
+                    </div>
+                    <div class="col-lg-6 text-center">
+                        <img src="./assets/hero.png" class="img-fluid hero-image" alt="Rapido Ride">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--================================ service section ========================= -->
+
+        <div class="container">
+
+            <div class="heading1">
+                <h1>Our Services</h1>
+            </div>
+
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6">
+                    <img src="./assets/bike-taxi.png" class="img-fluid" alt="Bike Taxi">
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <img src="./assets/auto.png" class="img-fluid" alt="Auto">
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <img src="./assets/cab.png" class="img-fluid" alt="Cab">
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <img src="./assets/parcel.png" class="img-fluid" alt="Parcel">
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <img src="./assets/travel.png" class="img-fluid" alt="travel">
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <img src="./assets/metro.png" class="img-fluid" alt="Metro Ticket">
+                </div>
+            </div>
+        </div>
+
+        <!--============================= what we offer =============================-->
+
+
+        <div class="whatweoffer">
+            <div class="container ">
+
+                <div class="heading1">
+                    <h1>What We Offer</h1>
+                </div>
+
+                <div class="row g-5">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card" style="width: 320px;">
+                            <img src="./assets/quickpickup.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Quick Pickup</h5>
+                                <p class="card-text">Pickups within minutes that help you save time on every ride. A
+                                    Rapido
+                                    is
+                                    always nearby when you need to get moving.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card" style="width: 320px;">
+                            <img src="./assets/bestfares.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Best Fares</h5>
+                                <p class="card-text">Affordable prices designed for everyday rides. Travel more, spend
+                                    less
+                                    without compromising on comfort.
+                                    is
+                                    always nearby when you need to get moving.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card" style="width: 320px;">
+                            <img src="./assets/nevertofar.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Never To Far</h5>
+                                <p class="card-text">
+                                    Present across 400+ cities and counting. Wherever you go, find a Rapido ride close
+                                    by.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <!-- ======================= earn with rapido ======================= -->
+
+        <div class="Earning">
+            <div class="container">
+                <div class="row align-items-center py-5">
+                    <div class="col-lg-6 text-center">
+                        <img src="./assets/earning.png" class="img-fluid earning-image" alt="Rapido Ride">
+                    </div>
+                    <div class="col-lg-6">
+                        <h1 class="earning-title">
+                            Earn with Rapido
+                        </h1>
+                        <h2 class="earning-text">
+                            Become a Rapido Captain. Ride when you want,
+                            work how you want, and earn on your own terms.
+                        </h2>
+                        <button class="btn earning-btn">
+                            Start Earning
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- -====================download section -========================= -->
+        <div class="download">
+
+            <div class="download-section">
+                <div class="container">
+                    <div class="download-heading">
+                        <h1>Download Now</h1>
+                    </div>
+                    <div class="row g-5">
+                        <div class="col-lg-6">
+                            <div class="download-card">
+                                <img src="./assets/rapido.png" alt="Rapido">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="download-card">
+                                <img src="./assets/rapidocaptain.png" alt="Rapido Captain">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- =====================footer section============================== -->
+
+
+
+
+
+
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <h5>Customer app</h5>
+                        <img src="./assets/googleplay.png" class="app-img" alt="Google Play">
+                        <img src="./assets/applestore.png" class="app-img" alt="App Store">
+                    </div>
+                    <div class="col-lg-3">
+                        <h5>Captain app</h5>
+                        <img src="./assets/googleplay.png" class="app-img" alt="Google Play">
+                    </div>
+                    <div class="col-lg-2">
+                        <a href="#">Home</a>
+                        <a href="#">About Us</a>
+                        <a href="#">Careers</a>
+                        <a href="#">Safety</a>
+                        <a href="#">Blog</a>
+                        <a href="#">Press</a>
+                        <a href="#">Privacy Policy</a>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="#">Customer Terms - Bike Taxi</a>
+                        <a href="#">Customer Terms - Cabs and Auto</a>
+                        <a href="#">Corporate Affairs</a>
+                        <a href="#">Captain Terms - Bike Taxi</a>
+                        <a href="#">Captain Terms - Cabs and Auto</a>
+                    </div>
+                    <div class="col-lg-1">
+                        <h5>Follow Us</h5>
+                        <div class="social-icons">
+                            <a href="#">f</a>
+                            <a href="#">♥</a>
+                            <a href="#">in</a>
+                            <a href="#">◎</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
